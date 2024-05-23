@@ -1,0 +1,24 @@
+---
+custom_node_group:
+  ppc App:
+    ensure: present
+    environment: production
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - or
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - ppcv
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - ppc
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - ppcapi

@@ -1,0 +1,1 @@
+{"custom_node_group":{"elapip Pipeline qa_v7a7a600_p5359707_j43_use1":{"ensure":"present","parent":"elapip App","environment":"elapip_qa_v7a7a600_p5359707_j43_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"elapip_qa_v7a7a600_p5359707_j43_use1"]]}}}

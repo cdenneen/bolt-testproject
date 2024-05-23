@@ -1,0 +1,1 @@
+{"custom_node_group":{"ppc Pipeline qa_vc7b5577_p74f2ec3_j44_use1":{"ensure":"present","parent":"ppc App","environment":"ppc_qa_vc7b5577_p74f2ec3_j44_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"ppc_qa_vc7b5577_p74f2ec3_j44_use1"]]}}}

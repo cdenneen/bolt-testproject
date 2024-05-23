@@ -1,0 +1,1 @@
+{"custom_node_group":{"ppc Pipeline dev_v540bc1f_pdf6e4aa_j235_use1":{"ensure":"present","parent":"ppc App","environment":"ppc_dev_v540bc1f_pdf6e4aa_j235_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"ppc_dev_v540bc1f_pdf6e4aa_j235_use1"]]}}}

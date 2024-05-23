@@ -1,0 +1,1 @@
+{"custom_node_group":{"nrstrm Pipeline dev_v5e72814_p89dc581_j48_use1":{"ensure":"present","parent":"nrstrm App","environment":"nrstrm_dev_v5e72814_p89dc581_j48_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"nrstrm_dev_v5e72814_p89dc581_j48_use1"]]}}}

@@ -1,0 +1,1 @@
+{"custom_node_group":{"keyapi Pipeline qa_v2802d57_pcd3f4d4_j43_use1":{"ensure":"present","parent":"keyapi App","environment":"keyapi_qa_v2802d57_pcd3f4d4_j43_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"keyapi_qa_v2802d57_pcd3f4d4_j43_use1"]]}}}

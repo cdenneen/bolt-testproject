@@ -1,0 +1,1 @@
+{"custom_node_group":{"votecastapi Pipeline dev_v833114e_p3b4acd7_j158_use1":{"ensure":"present","parent":"votecastapi App","environment":"votecastapi_dev_v833114e_p3b4acd7_j158_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"votecastapi_dev_v833114e_p3b4acd7_j158_use1"]]}}}

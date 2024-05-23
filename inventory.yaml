@@ -1,0 +1,10 @@
+groups:
+  - name: pe
+    features: ['puppet-agent']
+    config:
+      transport: local
+      local:
+        cleanup: false
+    targets:
+    - uri: localhost
+      name: primary

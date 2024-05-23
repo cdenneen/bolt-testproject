@@ -1,0 +1,1 @@
+{"custom_node_group":{"nrapi Pipeline qa_v30db43f_pac8de2e_j581_use1":{"ensure":"present","parent":"nrapi App","environment":"nrapi_qa_v30db43f_pac8de2e_j581_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"nrapi_qa_v30db43f_pac8de2e_j581_use1"]]}}}

@@ -1,0 +1,1 @@
+{"custom_node_group":{"apmsp Pipeline qa_v7a7a600_p90a771f_j44_use1":{"ensure":"present","parent":"apmsp App","environment":"apmsp_qa_v7a7a600_p90a771f_j44_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"apmsp_qa_v7a7a600_p90a771f_j44_use1"]]}}}

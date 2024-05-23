@@ -1,0 +1,1 @@
+{"custom_node_group":{"mapip Pipeline qa_v7a7a600_p5359707_j64_use1":{"ensure":"present","parent":"mapip App","environment":"mapip_qa_v7a7a600_p5359707_j64_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"mapip_qa_v7a7a600_p5359707_j64_use1"]]}}}

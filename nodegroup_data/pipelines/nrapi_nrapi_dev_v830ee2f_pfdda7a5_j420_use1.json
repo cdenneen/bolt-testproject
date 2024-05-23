@@ -1,0 +1,1 @@
+{"custom_node_group":{"nrapi Pipeline dev_v830ee2f_pfdda7a5_j420_use1":{"ensure":"present","parent":"nrapi App","environment":"nrapi_dev_v830ee2f_pfdda7a5_j420_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"nrapi_dev_v830ee2f_pfdda7a5_j420_use1"]]}}}

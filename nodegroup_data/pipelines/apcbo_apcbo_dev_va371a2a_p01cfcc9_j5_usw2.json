@@ -1,0 +1,1 @@
+{"custom_node_group":{"apcbo Pipeline dev_va371a2a_p01cfcc9_j5_usw2":{"ensure":"present","parent":"apcbo App","environment":"apcbo_dev_va371a2a_p01cfcc9_j5_usw2","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"apcbo_dev_va371a2a_p01cfcc9_j5_usw2"]]}}}

@@ -1,0 +1,9 @@
+{
+  "description": "Apply a Puppet manifest",
+  "parameters": {
+    "manifest": {
+      "description": "The Puppet manifest code to apply",
+      "type": "String"
+    }
+  }
+}

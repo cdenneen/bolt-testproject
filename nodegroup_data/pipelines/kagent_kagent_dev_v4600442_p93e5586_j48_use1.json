@@ -1,0 +1,1 @@
+{"custom_node_group":{"kagent Pipeline dev_v4600442_p93e5586_j48_use1":{"ensure":"present","parent":"kagent App","environment":"kagent_dev_v4600442_p93e5586_j48_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"kagent_dev_v4600442_p93e5586_j48_use1"]]}}}

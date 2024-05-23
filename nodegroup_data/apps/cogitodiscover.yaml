@@ -1,0 +1,29 @@
+---
+custom_node_group:
+  cogitodiscover App:
+    ensure: present
+    environment: production
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - or
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - cogito-dscv
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - cogitodiscover2
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - cogito
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - cogitod

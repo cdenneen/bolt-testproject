@@ -1,0 +1,9 @@
+---
+version: 5
+hierarchy:
+  - name: "NodeGroups Apps"
+    datadir: 'nodegroup_data'
+    glob: "apps/*.yaml"
+  - name: "NodeGroups Pipelines"
+    datadir: 'nodegroup_data'
+    glob: "pipelines/*.json"

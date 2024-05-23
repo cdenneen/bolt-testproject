@@ -1,0 +1,34 @@
+---
+custom_node_group:
+  nrapi App:
+    ensure: present
+    environment: production
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - or
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - nrapi
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - nrapit
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - nrapiv
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - nrapitv
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - nrapivuat

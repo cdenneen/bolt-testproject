@@ -1,0 +1,14 @@
+---
+custom_node_group:
+  wos App:
+    ensure: present
+    environment: wos_dev
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - and
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - wos

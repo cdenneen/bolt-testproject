@@ -1,0 +1,14 @@
+---
+custom_node_group:
+  tpse App:
+    ensure: present
+    environment: production
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - and
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - tpse

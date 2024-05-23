@@ -1,0 +1,19 @@
+---
+custom_node_group:
+  aidanatest1 App:
+    ensure: present
+    environment: production
+    override_environment: 'false'
+    parent: AP Application Custom Node Groups
+    rule:
+    - or
+    - - "="
+      - - trusted
+        - extensions
+        - pp_service
+      - aidanatest1
+    - - "="
+      - - trusted
+        - extensions
+        - pp_service
+      - aidanatest1

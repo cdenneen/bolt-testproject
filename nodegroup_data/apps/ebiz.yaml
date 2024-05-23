@@ -1,0 +1,19 @@
+---
+custom_node_group:
+  ebiz App:
+    ensure: present
+    environment: production
+    override_environment: "false"
+    parent: AP Application Custom Node Groups
+    rule:
+      - or
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - ebizv
+      - - "="
+        - - trusted
+          - extensions
+          - pp_service
+        - ebiz

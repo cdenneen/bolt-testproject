@@ -1,0 +1,1 @@
+{"custom_node_group":{"eapadmin Pipeline qa_vfd9eb17_pdc52fe6_j76_use1":{"ensure":"present","parent":"eapadmin App","environment":"eapadmin_qa_vfd9eb17_pdc52fe6_j76_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"eapadmin_qa_vfd9eb17_pdc52fe6_j76_use1"]]}}}

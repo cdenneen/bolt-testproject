@@ -1,0 +1,1 @@
+{"custom_node_group":{"igm2 Pipeline dev_v8c21506_p7c14528_j43_use1":{"ensure":"present","parent":"igm2 App","environment":"dev_v8c21506_p7c14528_j43_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"dev_v8c21506_p7c14528_j43_use1"]]}}}

@@ -1,0 +1,17 @@
+---
+name: deploy
+
+hiera-config: "./hiera.yaml"
+modulepath: "./modules"
+
+log:
+  console:
+    level: info
+
+modules:
+  - puppetlabs/peadm
+  - puppetlabs/stdlib
+  - git: https://github.com/puppetlabs/puppetlabs-node_manager
+    ref: 'main'
+  - git: https://github.com/cdenneen/puppet-custom_node_group
+    ref: 'main'

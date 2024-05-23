@@ -1,0 +1,1 @@
+{"custom_node_group":{"apmsp Pipeline dev_v06be8a2_p5359707_j55_use1":{"ensure":"present","parent":"apmsp App","environment":"apmsp_dev_v06be8a2_p5359707_j55_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"apmsp_dev_v06be8a2_p5359707_j55_use1"]]}}}

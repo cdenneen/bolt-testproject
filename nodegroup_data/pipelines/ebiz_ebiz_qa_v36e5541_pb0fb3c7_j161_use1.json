@@ -1,0 +1,1 @@
+{"custom_node_group":{"ebiz Pipeline qa_v36e5541_pb0fb3c7_j161_use1":{"ensure":"present","parent":"ebiz App","environment":"ebiz_qa_v36e5541_pb0fb3c7_j161_use1","override_environment":"true","rule":["and",["=",["trusted","extensions","pp_environment"],"ebiz_qa_v36e5541_pb0fb3c7_j161_use1"]]}}}
